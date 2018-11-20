@@ -1,0 +1,18 @@
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0, 0, 0);
+}
+
+.navbar-nav .active > .nav-link{
+	color: #ff1b2d;
+}
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.nav-link{
+	padding-right: 1.5rem !important;
+	padding-left: 1.5rem !important;
+}
