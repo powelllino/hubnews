@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { TopHeadersService } from '../top-headers.service';
 
 
 
@@ -10,21 +9,9 @@ import { TopHeadersService } from '../top-headers.service';
 })
 export class HomeContentComponent implements OnInit {
 
-	headers: Array<any>
 
-  constructor(private topHeaders: TopHeadersService) { }
+  constructor() { }
 
 
-  ngOnInit() {
-  	this.topHeaders.listar().subscribe(
-      (data) => {
-        this.headers = data.articles;
-        console.log(data.articles);
-      },
-      (error) => {
-        console.log(error);
-      }
-
-     );
-  }
+  ngOnInit() {}
 }

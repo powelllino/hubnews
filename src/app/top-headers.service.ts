@@ -8,7 +8,7 @@ import { Observable } from 'rxjs/Rx';
 })
 export class TopHeadersService {
 
-	topHeadersURL = 'https://newsapi.org/v2/top-headlines?country=br&pageSize=3&apiKey=49b8d566b15a4834b9723e58a07aa389';
+	topHeadersURL = 'https://newsapi.org/v2/top-headlines?country=br&pageSize=20&apiKey=49b8d566b15a4834b9723e58a07aa389';
 
   constructor(private http: HttpClient) { }
 

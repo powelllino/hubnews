@@ -1,0 +1,31 @@
+#headerslines{
+	padding-top:30px;
+}
+
+.p{
+	display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.tm{
+	display: flex;
+    flex-basis: 70%;
+    flex-wrap: wrap;
+}
+
+.ts{
+	flex-basis: 28%;
+    padding: 0 1rem;
+}
+
+.ahead{
+		box-shadow: 1px 0px 7px 1px #efefef;
+}
+
+.header{
+
+	.titulo{
+		padding-top:20px;
+	}
+}
