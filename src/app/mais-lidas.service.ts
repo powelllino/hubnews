@@ -7,7 +7,7 @@ import { Observable } from 'rxjs/Rx';
 })
 export class MaisLidasService {
 
-	maisLidasURL = 'https://newsapi.org/v2/top-headlines?language=en&pageSize=5&apiKey=49b8d566b15a4834b9723e58a07aa389';
+	maisLidasURL = 'https://newsapi.org/v2/top-headlines?language=pt&pageSize=5&apiKey=49b8d566b15a4834b9723e58a07aa389';
 
   constructor(private http: HttpClient) { }
 

@@ -10,6 +10,7 @@ import { HomeContentComponent } from './home-content/home-content.component';
 import { TopHeadersService } from './top-headers.service';
 import { TopHeadersComponent } from './home-content/news/top-headers/top-headers.component';
 import { MaisVistosComponent } from './home-content/news/mais-vistos/mais-vistos.component';
+import { UltimasComponent } from './home-content/news/ultimas/ultimas.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { MaisVistosComponent } from './home-content/news/mais-vistos/mais-vistos
     FooterComponent,
     HomeContentComponent,
     TopHeadersComponent,
-    MaisVistosComponent
+    MaisVistosComponent,
+    UltimasComponent
   ],
   imports: [
     BrowserModule,

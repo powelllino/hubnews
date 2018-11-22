@@ -17,7 +17,7 @@ export class MaisVistosComponent implements OnInit {
   	this.maisLidas.listar().subscribe(
       (data) => {
         this.maislidas = data.articles;
-        console.log(data);
+
       },
       (error) => {
         console.log(error);
