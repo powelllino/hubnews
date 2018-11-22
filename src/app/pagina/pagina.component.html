@@ -1,0 +1,30 @@
+<section class="category-post">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<ul class="list">
+					<li *ngFor='let post of listaPosts'>
+						<a href="{{post.url}}">
+						<div class="post-globo">
+							<div class="row"> 
+								<div class="col-md-4">
+									<img src="{{post.urlToImage}}" class="img-fluid img-responsive" />
+								</div>
+								<div class="col-md-8">
+									<h6>{{post.title}}</h6>
+									<p>{{post.description}}</p>
+
+								</div>			
+							</div>
+						</div>
+					</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-md-4">
+				
+
+			</div>
+		</div>
+	</div>
+</section>

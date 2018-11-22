@@ -1,0 +1,37 @@
+.category-post{
+
+	padding-top: 30px;
+
+	.secao{
+		border-bottom: 2px solid #ff1b2d;
+		padding-bottom:10px;
+	}
+
+	ul{
+		list-style: none;
+	}
+
+	.list{
+		margin: 0 0 26px 0 !important;
+	    overflow: visible;
+	    padding: 0 0 20px 0;
+
+	    a{
+	    	color: #000000;
+	    }
+
+	    p{
+	    	font-size:0.8em;
+	    }
+
+	    li{
+	    	margin-bottom: 20px;
+	    }
+
+	    .post-globo{
+	    	padding: 10px;
+	    	box-shadow: 0px 1px 11px 3px #efefef;
+
+	    }
+	}
+}

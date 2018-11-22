@@ -1,9 +1,14 @@
 .navbar-light .navbar-nav .nav-link {
     color: rgb(0, 0, 0);
+
+    &:hover {
+        color:#ff1b2d;
+    }
 }
 
 .navbar-nav .active > .nav-link{
 	color: #ff1b2d;
+
 }
 
 .navbar-nav.navbar-center {

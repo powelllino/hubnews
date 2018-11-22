@@ -5,6 +5,18 @@
 		color: #000000;
 		text-decoration: none;
 	}
+	@media (max-width: 575.98px) {
+		.ts{
+			flex-basis: 80%; 
+		}
+
+		.tm{
+			flex-basis: 80%; 
+			
+		}
+	}
+
+
 }
 
 .p{

@@ -11,6 +11,7 @@ import { TopHeadersService } from './top-headers.service';
 import { TopHeadersComponent } from './home-content/news/top-headers/top-headers.component';
 import { MaisVistosComponent } from './home-content/news/mais-vistos/mais-vistos.component';
 import { UltimasComponent } from './home-content/news/ultimas/ultimas.component';
+import { PaginaComponent } from './pagina/pagina.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { UltimasComponent } from './home-content/news/ultimas/ultimas.component'
     HomeContentComponent,
     TopHeadersComponent,
     MaisVistosComponent,
-    UltimasComponent
+    UltimasComponent,
+    PaginaComponent
   ],
   imports: [
     BrowserModule,
