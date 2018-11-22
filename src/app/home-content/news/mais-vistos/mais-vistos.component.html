@@ -1,0 +1,49 @@
+<section class="pb-0" id="maisvistos" *ngIf="maislidas">
+	 <div class="container">
+          <div class="row">
+          	<h3 class="secao">Mais Vistos</h3>
+          </div>
+     </div>
+     <div class="bg-green">
+     	<div class="container">
+          <div class="row">
+          	<div class="col-6">
+                    <div class="item">
+                         <img class="rounded img-fluid img-t" src="{{maislidas[0].urlToImage}}" alt="">
+                         <h4 class="titulo">{{maislidas[0].title}}</h4>
+                    </div>
+          	</div>
+          	<div class="col-6">
+          		 <div class="row">
+          		 	<div class="col-6">
+                              <div class="item item-menor">
+                                   <img class="rounded img-fluid img-0" src="{{maislidas[1].urlToImage}}" alt="">
+                                   <h6 class="titulo">{{maislidas[1].title}}</h6>
+                              </div>
+          		 	</div>
+          		 	<div class="col-6">
+                              <div class="item item-menor">
+               		 		<img class="rounded img-fluid img-0" src="{{maislidas[2].urlToImage}}" alt="">
+                                   <h6 class="titulo">{{maislidas[2].title}}</h6>
+                              </div>
+          		 	</div>
+          		 </div>
+          		  <div class="row">
+          		 	<div class="col-6">
+                                <div class="item item-menor">
+               		 		<img class="rounded img-fluid img-0" src="{{maislidas[3].urlToImage}}" alt="">
+                                   <h6 class="titulo">{{maislidas[3].title}}</h6>
+                              </div>
+          		 	</div>
+          		 	<div class="col-6">
+                              <div class="item item-menor">
+               		 		<img class="rounded img-fluid img-0" src="{{maislidas[4].urlToImage}}" alt="">
+                                   <h6 class="titulo">{{maislidas[4].title}}</h6>
+                              </div>
+          		 	</div>
+          		 </div>
+          	</div>
+          </div>
+        </div>
+     </div>
+</section>

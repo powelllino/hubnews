@@ -1,5 +1,10 @@
 #headerslines{
 	padding-top:30px;
+
+	a{
+		color: #000000;
+		text-decoration: none;
+	}
 }
 
 .p{
@@ -12,6 +17,7 @@
 	display: flex;
     flex-basis: 70%;
     flex-wrap: wrap;
+
 }
 
 .ts{
@@ -20,10 +26,20 @@
 }
 
 .ahead{
-		box-shadow: 1px 0px 7px 1px #efefef;
+	padding-top: 10px;
+    margin-top: 10px;
+	box-shadow: 1px 0px 7px 1px #efefef;
 }
 
 .header{
+
+	 .img-sec{
+    	max-height: 200px;
+    }
+
+     .img-0{
+    	max-height: 400px;
+    }
 
 	.titulo{
 		padding-top:20px;

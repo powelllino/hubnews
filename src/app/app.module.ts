@@ -9,6 +9,7 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeContentComponent } from './home-content/home-content.component';
 import { TopHeadersService } from './top-headers.service';
 import { TopHeadersComponent } from './home-content/news/top-headers/top-headers.component';
+import { MaisVistosComponent } from './home-content/news/mais-vistos/mais-vistos.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { TopHeadersComponent } from './home-content/news/top-headers/top-headers
     TopoComponent,
     FooterComponent,
     HomeContentComponent,
-    TopHeadersComponent
+    TopHeadersComponent,
+    MaisVistosComponent
   ],
   imports: [
     BrowserModule,

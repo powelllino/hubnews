@@ -1,0 +1,41 @@
+#maisvistos{
+	padding-top:50px;
+
+	.secao{
+		border-bottom: 2px solid #ff1b2d;
+		padding-bottom:10px;
+	}
+
+	.bg-green{
+		width: 100%;
+		background-color: #efefef;
+		padding-top:30px;
+		padding-bottom:30px;
+
+		.col-6{
+			padding-right: 0px;
+		}
+
+		.item{
+			padding: 20px;
+			background-color: #ffffff;
+			box-shadow: 3px 3px 9px 0px #e2e2e2;
+		}
+
+		.item-menor{
+			max-height: 200px;
+			margin-bottom: 10px;
+
+		}
+	}
+
+
+	.img-0{
+
+		    max-width: 150px;
+	}
+
+	.img-t{
+		max-width: 400px;;
+	}
+}
